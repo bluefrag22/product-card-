@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    background-color:  hsl(30, 38%, 92%);
+    padding: 10px;
+
+}
+
+.app{
+    background-color: white;
+    height: 95vh;
+    border-radius: 15px;
+    
+}
+
+.imgcontainer{
+    
+    margin-bottom: 15px;
+}
+
+.imgcontainer img{
+    width: 100%;
+    /* border-radius: 15px; */
+}
+
+.innerapp{
+    padding: 15px;
+}
+.tag{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+}
+
+h2{
+    font-size: 33px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.decriptions{
+    font-size: 14px;
+    color : hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mainprice{
+    font-size: 35px;
+    margin-right: 20px;
+    color:hsl(158, 36%, 37%);
+}
+
+.discounted{
+    text-decoration: line-through;
+    color: hsl(158, 36%, 37%);
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+@media  screen and (min-width: 1440px)  and (min-width: 1280px) {
+    body{
+        height: 100vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .app{
+        height: 500px;
+        width: 700px;
+        display: flex;
+        border-radius: 15px;
+    }
+    
+    .innerapp{
+        padding: 30px;
+    }
+    .imgcontainer {
+       height: 500px;
+       width: 500px;
+    }
+
+    .imgcontainer img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        content: url(./image-product-desktop.jpg);
+    }
+
+
+    .tag{
+        margin-bottom: 30px;
+    }
+
+    h2{
+        font-size: 45px;
+        margin-bottom: 30px
+    }
+
+    .decriptions{
+        margin-bottom: 30px;
+    }
+ 
+    .btn{
+        width: 100%;
+        text-align: center
+    }
+    button{
+        width: 70%;
+        text-align: center;
+    }
+}
+
+@media  screen and (min-width: 1280px) {
+    body{
+        height: 100vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .app{
+        height: 500px;
+        width: 700px;
+        display: flex;
+        border-radius: 15px;
+    }
+    
+    .innerapp{
+        padding: 20px;
+
+    }
+    .imgcontainer {
+      width: 1000px;
+    }
+
+    .imgcontainer img{
+        /* width: 100%; */
+        height: 100%;
+        /* object-fit: cover; */
+        content: url(./image-product-desktop.jpg);
+    }
+
+
+    .tag{
+        margin-bottom: 20px;
+    }
+
+    h2{
+        font-size: 45px;
+        margin-bottom: 20px
+    }
+
+    .decriptions{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+ 
+    .btn{
+        width: 100%;
+        text-align: center
+    }
+    button{
+        width: 100%;
+        text-align: center;
+    }
+}
